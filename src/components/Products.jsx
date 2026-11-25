@@ -4,7 +4,7 @@ const items = [
     {id: 3, name: "Product 3", price: 250, code: "0003"},
     {id: 4, name: "Product 4", price: 600, code: "0004"},
 ]
-
+//REST Apis
 export function Products() {
 
     const productList = items.map(item => <div>
